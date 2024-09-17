@@ -40,7 +40,7 @@ Esse redimensionamento é feito utilizando a função `cv.resize` do OpenCV.
 Para instalar a biblioteca, utilize o seguinte comando:
 
 ```bash
-pip install git+https://github.com/joaowcitino/video_processor.git
+pip install git+https://github.com/seu_usuario/seu_repositorio.git
 ```
 
 ## Execução
@@ -63,4 +63,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ## Repositório
 
-Para acessar o repositório do projeto, visite: [Seu Repositório no GitHub](https://github.com/joaowcitino/video_processor)
+Para acessar o repositório do projeto, visite: [Seu Repositório no GitHub](https://github.com/seu_usuario/seu_repositorio)

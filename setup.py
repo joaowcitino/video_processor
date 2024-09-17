@@ -4,10 +4,10 @@ setup(
     name='video_processor_lib',
     version='0.1',
     packages=find_packages(),
-    url='https://github.com/joaowcitino/video_processor',
+    url='https://github.com/seu_usuario/seu_repositorio',  # Substitua pelo URL do seu repositório
     license='MIT',
-    author='Joao Citino & Artur',
-    author_email='joaocitino10@gmail.com',
+    author='Seu Nome',  # Substitua pelo seu nome
+    author_email='seuemail@example.com',  # Substitua pelo seu e-mail
     description='Processador de vídeo em tempo real com rotação e escala.',
     install_requires=[
         'numpy>=1.18.0',
