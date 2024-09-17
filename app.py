@@ -34,9 +34,8 @@ def run():
         frame = cv.resize(frame, (width, height), interpolation=cv.INTER_AREA)
 
         angle = cv.getTrackbarPos('Rotation Angle', 'Minha Imagem!')
-        scale = cv.getTrackbarPos('Scale', 'Minha Imagem!') / 100.0  # Converte para fator de escala
+        scale = cv.getTrackbarPos('Scale', 'Minha Imagem!') / 100.0
 
-        # Aplica as transformações
         scaled_image = scale_image(frame, scale)
         rotated_image = rotate_image(scaled_image, angle)
 
